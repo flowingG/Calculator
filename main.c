@@ -14,7 +14,7 @@ int main(int argc, char *argv[]){
     expression = (myexpression *)malloc(sizeof(myexpression));
     //答案
     mynum *answer;
-    answer = (mynum *)(mynum *)malloc(sizeof(mynum));
+    answer = (mynum *)malloc(sizeof(mynum));
     //设置随机数种子
     srand((unsigned)time(NULL));
     //要写入两个文件的字符串
