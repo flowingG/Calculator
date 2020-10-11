@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
     FILE *answerfile = fopen("./Answer.txt", "w");
     //表达式
     myexpression *expression;
-    //TODO:初始化表达式
+    //初始化表达式
     expression = (myexpression *)malloc(sizeof(myexpression));
     //答案
     mynum *answer;
